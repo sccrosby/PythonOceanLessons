@@ -3,4 +3,3 @@ matplotlib
 seaborn
 pandas
 requests
-os
