@@ -1,8 +1,8 @@
-# Estuary Circulation
+# Coastal Upwelling
 
 The learning goals of this lesson are
-* students will see how, not-intuitively, smaller tides lead to stronger exchange flow
-* students will see that mixing by stronger tides leads to lower stratification which inhibits exchange flow
+* students will explore how offshore winds, through the process of upwelling and downwelling, change the stratification and temperature along the coast
+* students will observe how the actual dynamics observed in the data do behave as simply as expected
 
 The technical goals of this lesson are
 * students interpret 2D heatmaps in depth and time

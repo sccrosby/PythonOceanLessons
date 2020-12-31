@@ -10,19 +10,19 @@ When working locally I recommend cloning this repository to your personal comput
 
 This repo contains several folders with a brief description of each below
 
-0. 01_PythonAndColabIntroduction.ipynb: This python notebook is a brief introduction to basic python commands and scripting inside Jupyter or Colab notebooks. If students are new to scripting in python I recommend reviewing this notebook with them.
+0. [01_PythonAndColabIntroduction.ipynb](01_PythonAndColabIntroduction.ipynb): This python notebook is a brief introduction to basic python commands and scripting inside Jupyter or Colab notebooks. If students are new to scripting in python I recommend reviewing this notebook with them.
 
-1. Lesson_CoastalUpwelling: Student lesson/activity to illustrate the mechanics of upwelling along the U.S. Washington Coastline using observations collected by the Washington OOI endurance array.
+1. Lesson_CoastalUpwelling: Student lesson/activity to illustrate the mechanics of upwelling along the U.S. Washington Coastline using observations collected by the Washington OOI endurance array. See the instructor guide, [InstructorGuide](Lesson_CoastalUpwelling/02_InstructorGuide.md).
 
 2. Lesson_EstuaryCirculation: Student lesson/activity to explore estuary exchange (residual) circulation with model-data from University of Washington's Live Ocean Salish Sea hydrodynamic model. See the instructor guide, [InstructorGuide](Lesson_EstuaryCirculation/04_InstructorGuide.md).
 
 3. Lesson_Waves: Student lesson/activity to investigate the relationship between winds and waves aimed to develop student intuition for local and remote wave generation. These notebooks use observations collected by the National Data Buoy Center. See the instructor guide, [InstructorGuide](Lesson_Waves/03_InstructorGuide.md).
 
-4. Lesson_ErrorMetrics: A brief student lesson/activity to investigate the meaning of error metrics commonly used in scientific literature.
+4. Lesson_ErrorMetrics: A brief student lesson/activity to investigate the meaning of error metrics commonly used in scientific literature. See the instructor guide, [InstructorGuide](Lesson_ErrorMetrics/02_InstructorGuide.md).
 
 5. Datasets: Archived datasets used in some of the student lessons
 
-6. DataTools_RiverDischarge: A set of python notebooks for students to use to see how to download, post-process, and plot river discharge data from U.S. Geological Survey river gauges.
+6. DataTools_RiverDischarge: A set of python notebooks for students to use to see how to download, post-process, and plot river discharge data from U.S. Geological Survey river gauges. See the readme, [README.md](DataTools_RiverDischarge/README.md)
 
 7. Images: Saved images needed for the python notebooks
 
