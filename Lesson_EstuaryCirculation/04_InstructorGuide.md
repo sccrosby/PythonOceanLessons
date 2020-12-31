@@ -1,33 +1,30 @@
-# PythonOceanLessons
+# Estuary Circulation
 
-Here are a compilation of lessons for Oceanography students designed using python notebooks. These were developed with support from a Ocean Observing Institute (OOI) grant from the National Science Foundation (NSF) award to Rutgers University. The lessons were implement in the Salish Sea Oceanography course at Western Washington University's Huxely Environmental Sciences Department. They are designed at the upper division undergraduate level but may be revised for students at varying levels. Some lessons have prompts at the end for more complex, less guided analysis for students more comfortable in the python scripting environment.
+The learning goals of this lesson are
+* students will see how, not-intuitively, smaller tides lead to stronger exchange flow
+* students will see that mixing by stronger tides leads to lower stratification which inhibits exchange flow
 
-The lessons are created in Jupyter Notebooks for their simplicity of use and to make transitioning between local python compilations and Google Colabs more seamless. I recommend working locally on your own machine if possible because Google Colabs file navigation is rather cumbersome, and Colabs can be slow when working with size-able datasets. However, when teaching students remotely it can be much easier to use Google Colabs to avoid the inevitable issues installing Python on students personal machines. The most ideal setting for this work is computer lab with Python packages pre-installed.
+The technical goals of this lesson are
+* students interpret 2D heatmaps in depth and time
+* students implement simple plotting commands
+* students become familiar with the xarray dataset, commonly used with netcdf files
+* students see how averaging (filtering) data can illuminate underlying processes
 
-When working locally I recommend cloning this repository to your personal computer using Git-Hub tools. There are several ways to install Git-Hub and manage repositories, https://github.com/git-guides/install-git, however the easiest use-friendly approach is to use GitHub Desktop, https://desktop.github.com/. Once installed you can use a terminal to navigate to the folder you want the repository cloned in and then use "git clone repo-url" command. You may want to personalize this repo to your own purposes and in that case I recommend that you fork the repository which will make it easier to collaborate in the future.
+### Background
+As the instructor you will want to preface this lesson with some background on tides, and tidal flow in an estuary. You will also want students to have an understanding of density and how salinity and temperature impact density. The data used in the lesson are from the Salish Sea, an estuary in Washington USA.
 
-## What's here
+### The lesson
 
-This repo contains several folders with a brief description of each below
+First you should become familiar with the two python notebooks, making sure all cells work as intended. Ideally this lesson is given to students in a computer lab with Python pre-installed. I have included my notes on the topic in 03_EstuaryPhysicsNotes.pdf, this should be helpful to premise the topic, as well as to follow up after the lesson. I would recommend discussing the Knudsen relation after the lesson.
 
-1. Lesson_CoastalUpwelling: Student lesson/activity to illustrate the mechanics of upwelling along the U.S. Washington Coastline using observations collected by the Washington OOI endurance array.
+I recommend that you introduce the region by exploring UW's webpage about their hydrodynamic model, Live Ocean, https://faculty.washington.edu/pmacc/LO/LiveOcean.html. This page is frequently changing and being updated and currently has 3-day forecasts as well as large array of information that would interesting to explore.
 
-2. Lesson_EstuaryCirculation: Student lesson/activity to explore estuary exchange (residual) circulation with model-data from University of Washington's Live Ocean Salish Sea hydrodynamic model
+Once students are familiar with the region and excited (hopefully) by the model movies, you should introduce the dataset with the first notebook, 01_IntroductionToModelDataset.ipynb. You will be looking data from the Admiralty Inlet location, however, if students want to explore further data from HoodCanal is also available. Depending on the coding experience of students, this introduction could take anywhere from 10 minutes to an hour. Have students edit some of the code to change variables in plots or locations being loaded into the dataset. This is a good time to break things and help students fix errors.
 
-3. Lesson_Waves: Student lesson/activity to investigate the relationship between winds and waves aimed to develop student intuition for local and remote wave generation. These notebooks use observations collected by the National Data Buoy Center
+Once students have an idea what they are looking at and the basics of working with the dataset they should start the activity, 02_ExchangeFlowActivity.ipynb. Depending on the level of the students this may be taught with significant direction, little direction, or no direction. Note that I've included the answers to coding elements in the notebook cells, these should be removed before providing to students. You may choose to remove more or less of the code depending on the level of the students. For example, if students are experience with python, you should be able to remove almost all the code in the document, provided they have the 01_IntroductionToModelDataset notebook for reference.
 
-4. Lesson_ErrorMetrics: A brief student lesson/activity to investigate the meaning of error metrics commonly used in scientific literature.
-
-5. Datasets: Archived datasets used in some of the student lessons
-
-6. DataTools_RiverDischarge: A set of python notebooks for students to use to see how to download, post-process, and plot river discharge data from U.S. Geological Survey river gauges.
-
-7. Images: Saved images needed for the python notebooks
-
-8. InDevelopment: Scripts that may be developed into lessons in the future
-
-If you have questions or want to get in touch, you can email me.
-
-**Sean C. Crosby**
-
-*sean.crosby (AT) wwu.edu*
+### Remarks
+* Here, students will use a function butter_lowpass_filter() to average out tidal variations. This could be explained with varying level of detail, or very little detail at all. Its implementation in a loop may also confuse students, if this is the case I recommend explaining that all that is happening is the data is being averaged in time over each tidal cycle, and this happens to each depth layer.
+* Students may remark that there is more outflow than inflow. This should be the case since estuary river inflow should require a net outflow. However, the degree to which this is happening is quite strong and likely there are some 2D effects. For example, waters along the edges may be flowing into the estuary more so than in the center, where our observation location is
+* Here students are exploring data from a model. I think it is important that students know this is not real data, however, it is not critical make this distinction as the learning would be similar if the data were real. Real data though always has issues
+* The connections between tidal range, exchange flow, and stratification are not always completely clear. While it does appear that during period of lower tidal action exchange flow is higher and stratification stronger, sometimes this effect appears to lag or not be present. This is an opportunity to show students that in fact the process is quite complicated and our simple schematic models are not always right.
