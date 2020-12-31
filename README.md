@@ -25,3 +25,7 @@ This repo contains several folders with a brief description of each below
 7. Images: Saved images needed for the python notebooks
 
 8. InDevelopment: Scripts that may be developed into lessons in the future
+
+If you have questions or want to get in touch, you can email me.
+Sean C. Crosby
+sean.crosby (AT) wwu.edu
