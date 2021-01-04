@@ -12,7 +12,7 @@ This repo contains several folders with a brief description of each below
 
 0. [01_PythonAndColabIntroduction.ipynb](01_PythonAndColabIntroduction.ipynb): This python notebook is a brief introduction to basic python commands and scripting inside Jupyter or Colab notebooks. If students are new to scripting in python I recommend reviewing this notebook with them.
 
-1. Lesson_CoastalUpwelling: Student lesson/activity to illustrate the mechanics of upwelling along the U.S. Washington Coastline using observations collected by the Washington OOI endurance array. See the instructor guide, [InstructorGuide](Lesson_CoastalUpwelling/02_InstructorGuide.md).
+1. Lesson_CoastalTransport: Student lesson/activity to illustrate the mechanics of upwelling and downwelling along the U.S. Washington Coastline using observations collected by the Washington OOI endurance array. See the instructor guide, [InstructorGuide](Lesson_CoastalTransport/02_InstructorGuide.md).
 
 2. Lesson_EstuaryCirculation: Student lesson/activity to explore estuary exchange (residual) circulation with model-data from University of Washington's Live Ocean Salish Sea hydrodynamic model. See the instructor guide, [InstructorGuide](Lesson_EstuaryCirculation/04_InstructorGuide.md).
 

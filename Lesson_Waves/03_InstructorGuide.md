@@ -22,7 +22,7 @@ Or in a terminal or command window use
 
     pip install NDBC
 
-With this package and scripts in the notebook students may download data from any number of NDBC buoys, and I recommend introducing the agency briefly and looking through the map of buoy sites. At this time it would be good to zoom in on the Salish Sea and Washington coast where the students will examine data at two locations.
+With this package and scripts in the notebook students may download data from any number of NDBC buoys, and I recommend introducing the agency briefly and looking through the map of buoy sites, e.g. [NDBC Page](https://www.ndbc.noaa.gov/). At this time it would be good to zoom in on the Salish Sea and Washington coast where the students will examine data at two locations.
 
 Once students are familiar with the region you should introduce the first notebook where you can lead students through the data downloading, wrangling, and plotting [01_Introduction.ipynb](01_Introduction.ipynb). Depending on the coding experience of students, this introduction could take anywhere from 10 minutes to an hour. Have students edit some of the code to change variables in plots or locations being loaded into the dataset. This is a good time to break things and help students fix errors and gain some confidence manipulating the data and changing plotting commands.
 
