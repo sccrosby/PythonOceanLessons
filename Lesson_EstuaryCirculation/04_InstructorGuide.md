@@ -15,7 +15,7 @@ As the instructor you will want to preface this lesson with some background on t
 
 ### The lesson
 
-First you should become familiar with the two python notebooks, making sure all cells work as intended. Ideally this lesson is given to students in a computer lab with Python pre-installed. I have included my notes on the topic in 03_EstuaryPhysicsNotes.pdf, this should be helpful to premise the topic, as well as to follow up after the lesson. I would recommend discussing the Knudsen relation after the lesson.
+First you should become familiar with the two python notebooks, making sure all cells work as intended. Ideally this lesson is given to students in a computer lab with Python pre-installed. I have included my notes on the topic in [03_EstuaryPhysicsNotes.pdf](03_EstuaryPhysicsNotes.pdf), this should be helpful to premise the topic, as well as to follow up after the lesson. I would recommend discussing the Knudsen relation after the lesson.
 
 I recommend that you introduce the region by exploring UW's webpage about their hydrodynamic model, Live Ocean, https://faculty.washington.edu/pmacc/LO/LiveOcean.html. This page is frequently changing and being updated and currently has 3-day forecasts as well as large array of information that would interesting to explore.
 
