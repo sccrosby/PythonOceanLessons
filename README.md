@@ -20,7 +20,7 @@ This repo contains several folders with a brief description of each below
 
 4. Lesson_ErrorMetrics: A brief student lesson/activity to investigate the meaning of error metrics commonly used in scientific literature. See the instructor guide, [InstructorGuide](Lesson_ErrorMetrics/02_InstructorGuide.md).
 
-5. Datasets: Archived datasets used in some of the student lessons. OOI data was downloaded and post-processed. The matlab script for post-processing is including here, [Datasets/PostProcess.m](Datasets/PostProcess.m)
+5. Datasets: Archived datasets used in some of the student lessons. OOI data was downloaded and post-processed. The matlab script for post-processing is including here, [PostProcess.m](Datasets/PostProcess.m)
 
 6. DataTools_RiverDischarge: A set of python notebooks for students to use to see how to download, post-process, and plot river discharge data from U.S. Geological Survey river gauges. See the readme, [README.md](DataTools_RiverDischarge/README.md)
 
